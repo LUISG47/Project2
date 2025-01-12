@@ -117,10 +117,20 @@ We used www.quickdatabasediagrams.com to make the Diagram based on the following
 2. Use the information from the ERD to create a table schema for each CSV file.
 Note: Remember to specify the data types, primary keys, foreign keys, and other constraints.
 3. Save the database schema as a Postgres file named crowdfunding_db_schema.sql, and save it to your GitHub repository.
-4. Create a new Postgres database, named crowdfunding_db.
+4. Create a new Postgres database, named crowdfunding_db
 5. Using the database schema, create the tables in the correct order to handle the foreign keys.
 6. Verify the table creation by running a SELECT statement for each table.
 7. Import each CSV file into its corresponding SQL table.
+
+When importing the CSV files make sure that you actiavte the headers tab (see the following image)
+
+![Screenshot 2025-01-12 at 12 58 49 p m](https://github.com/user-attachments/assets/a12e0425-ad2a-4ba1-b86e-5b69a13ce82c)
+
+If the process was done correctly you should get two green confirmations that the table data was imported correcly:
+
+![Screenshot 2025-01-12 at 3 40 26 p m](https://github.com/user-attachments/assets/8e46d176-a06c-4a6b-b472-bd8bc39c7e15)
+
+
 8. Verify that each table has the correct data by running a SELECT statement for each.
 
 Here is how the tables should be displayed (see that they match the Pandas Dataframes created before):
