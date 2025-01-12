@@ -104,7 +104,12 @@ The instructions for this mini project are divided into the following subsection
 
 ## Create the Crowdfunding Database
 
-1. Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
+1. Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site.
+
+We used www.quickdatabasediagrams.com to make the Diagram based on the following Entity-relationship schema:
+
+![QuickDBD-Crowdfunding](https://github.com/user-attachments/assets/25061319-dd13-4ca1-b61d-b0bc90879345)
+
 2. Use the information from the ERD to create a table schema for each CSV file.
 Note: Remember to specify the data types, primary keys, foreign keys, and other constraints.
 3. Save the database schema as a Postgres file named crowdfunding_db_schema.sql, and save it to your GitHub repository.
@@ -115,12 +120,3 @@ Note: Remember to specify the data types, primary keys, foreign keys, and other 
 8. Verify that each table has the correct data by running a SELECT statement for each.
 
 
-### Hints
-
-+ To split each "category & sub-category" column value into "category" and "subcategory" column values, use df[["new_column1","new_column2"]] = df["column"].str.split(). Make sure to pass the correct parameters to the split() function.
-+ To get the unique category and subcategory values from the "category" and "subcategory" columns, create a NumPy array where the array length equals the number of unique categories and unique subcategories from each column. For information about how to do so, see numpy.arangeLinks to an external site. in the NumPy documentation.
-+ To create the category and subcategory identification numbers, use a list comprehension to add the "cat" string or the "subcat" string to each number in the category or the subcategory array, respectively.
-+ For more information about creating a new Pandas DataFrame, see the pandas.DataFrameLinks to an external site. in the Pandas documentation.
-+ To convert the "goal" and "pledged" columns to the float data type, use the astype() method.
-+ To convert the "launch_date" and "end_date" UTC times to the datetime format, see the Transform_Grocery_Orders_Solved.ipynb activity solution.
-+ For more information about how to add the "category_id" and "subcategory_id" unique identification numbers to the campaign DataFrame, see the pandas.DataFrame.mergeLinks to an external site. in the Pandas documentation.
