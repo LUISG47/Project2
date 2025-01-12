@@ -111,7 +111,8 @@ The instructions for this mini project are divided into the following subsection
 
 We used www.quickdatabasediagrams.com to make the Diagram based on the following Entity-relationship schema:
 
-![QuickDBD-Crowdfunding](https://github.com/user-attachments/assets/25061319-dd13-4ca1-b61d-b0bc90879345)
+![QuickDBD-Crowdfunding (4)](https://github.com/user-attachments/assets/a4d08158-7e86-4974-bcaf-f8fd11a3782b)
+
 
 2. Use the information from the ERD to create a table schema for each CSV file.
 Note: Remember to specify the data types, primary keys, foreign keys, and other constraints.
