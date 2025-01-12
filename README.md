@@ -145,6 +145,7 @@ Additionaly we created some tables to see that joining the tables to some purpos
 
 ![Screenshot 2025-01-12 at 1 29 46 p m](https://github.com/user-attachments/assets/9632bfa7-7bdd-4ff4-8624-0510a866be2f)
 
+TABLE 1:
 
 For example we joined all the tables putting the outcome of the campaign as successfull and ordering by the amount pledged from highest to lowest displaying only the first 10 results
 
@@ -153,10 +154,24 @@ The result should look as follows:
 
 ![Screenshot 2025-01-12 at 1 26 24 p m](https://github.com/user-attachments/assets/60ad9721-b849-4870-83b5-e763106c2453)
 
+TABLE 2:
+
 Now on the same joins but ordering the outcome of the campaign as failed and sorting it by the amount pledged from highest to lowest:
 (Please check file crowdfunding_db_analysis.sql for code of the table)
 
 The result should look as follows:
 
 ![Screenshot 2025-01-12 at 2 17 16 p m](https://github.com/user-attachments/assets/c718b923-f657-4f19-878a-f6cfea92ffb7)
+
+
+TABLE 3:
+
+This tables now groups the campaigns by category and shows the top 10 successfull campaigns grouped by category
+(Please check file crowdfunding_db_analysis.sql for code of the table)
+
+The result should look as follows:
+
+![Screenshot 2025-01-12 at 2 43 06 p m](https://github.com/user-attachments/assets/3713ac96-5671-4194-b0a3-f1fd6bb7d78f)
+
+
 
