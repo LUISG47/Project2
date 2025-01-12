@@ -153,4 +153,10 @@ The result should look as follows:
 
 ![Screenshot 2025-01-12 at 1 26 24 p m](https://github.com/user-attachments/assets/60ad9721-b849-4870-83b5-e763106c2453)
 
+Now on the same joins but ordering the outcome of the campaign as failed and sorting it by the amount pledged from highest to lowest:
+(Please check file crowdfunding_db_analysis.sql for code of the table)
+
+The result should look as follows:
+
+![Screenshot 2025-01-12 at 2 17 16 p m](https://github.com/user-attachments/assets/c718b923-f657-4f19-878a-f6cfea92ffb7)
 
