@@ -174,4 +174,12 @@ The result should look as follows:
 ![Screenshot 2025-01-12 at 2 43 06 p m](https://github.com/user-attachments/assets/3713ac96-5671-4194-b0a3-f1fd6bb7d78f)
 
 
+TABLE 4:
+
+This tables now groups the campaigns by category and shows the top 10 failedcampaigns grouped by category
+(Please check file crowdfunding_db_analysis.sql for code of the table)
+
+The result should look as follows:
+
+![Screenshot 2025-01-12 at 2 46 40 p m](https://github.com/user-attachments/assets/5e46ca47-08be-4634-8a37-1141649d6ebc)
 
