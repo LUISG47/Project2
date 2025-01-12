@@ -119,4 +119,37 @@ Note: Remember to specify the data types, primary keys, foreign keys, and other 
 7. Import each CSV file into its corresponding SQL table.
 8. Verify that each table has the correct data by running a SELECT statement for each.
 
+Here is how the tables should be displayed:
+
+Table campaign:
+
+![Screenshot 2025-01-12 at 1 11 50 p m](https://github.com/user-attachments/assets/cc8fdca1-0faf-4c18-a5c7-ab4b90dbaf6f)
+
+Table category:
+
+![Screenshot 2025-01-12 at 1 03 38 p m](https://github.com/user-attachments/assets/390bd307-7e15-49f6-9c5b-dcbdca14b685)
+
+
+Table subcategory:
+
+![Screenshot 2025-01-12 at 1 03 20 p m](https://github.com/user-attachments/assets/f8a8db3e-e212-4491-b47a-88d4feec50c9)
+
+Table contacts:
+
+![Screenshot 2025-01-12 at 1 02 34 p m](https://github.com/user-attachments/assets/0576e719-9a31-4af5-8ec0-5e67e9baf415)
+
+## EXTRA
+
+
+Additionaly we created some tables to see that joining the tables to some purposes will be effective with this code :
+
+![Screenshot 2025-01-12 at 1 28 24 p m](https://github.com/user-attachments/assets/60d7c043-0cc5-491a-908f-590924f544e7)
+
+For example we joined all the tables putting the outcome of the campaign as successfull and ordering by the amount pledged from highest to lowest displaying only the first 10 results
+
+The result should look as follows:
+
+
+![Screenshot 2025-01-12 at 1 26 24 p m](https://github.com/user-attachments/assets/60ad9721-b849-4870-83b5-e763106c2453)
+
 
