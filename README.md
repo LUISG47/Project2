@@ -26,9 +26,9 @@ The instructions for this mini project are divided into the following subsection
 
 + A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
 + A "category" column that contains only the category titles
-+ The following image shows this category DataFrame:
++ The following image shows how the category DataFrame should look like:
 
-
+![Screenshot 2025-01-12 at 3 21 00 p m](https://github.com/user-attachments/assets/733d3ff4-f191-4d9b-a485-1d7abea72971)
 
 
 
@@ -38,9 +38,9 @@ The instructions for this mini project are divided into the following subsection
 
 + A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
 + A "subcategory" column that contains only the subcategory titles
-+ The following image shows this subcategory DataFrame:
++ The following image shows how the subcategory DataFrame should look like:
 
-
+![Screenshot 2025-01-12 at 3 21 09 p m](https://github.com/user-attachments/assets/d4c6e49f-3671-4ac8-8d7a-94f53dc89b94)
 
 
 4. Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
@@ -66,17 +66,14 @@ The instructions for this mini project are divided into the following subsection
 + The "deadline" column, renamed to "end_date" and with the UTC times converted to the datetime format
 + The "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame
 + The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
-+ The following image shows this campaign DataFrame:
++ The following image shows how the campaign DataFrame should look like:
 
 
-
+![Screenshot 2025-01-12 at 3 23 02 p m](https://github.com/user-attachments/assets/bfb53d22-f4ec-4af8-8e74-e5fc2314b1ea)
 
 
 
 2. Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
-
-
-   
 
 ## Create the Contacts DataFrame
 
@@ -104,6 +101,9 @@ The instructions for this mini project are divided into the following subsection
 
 4. Check that your final DataFrame resembles the one in the following image:
 
+![Screenshot 2025-01-12 at 3 23 50 p m](https://github.com/user-attachments/assets/71e0f6d8-ed28-48b9-9f3b-21702d276c42)
+
+
 
 ## Create the Crowdfunding Database
 
@@ -123,11 +123,7 @@ Note: Remember to specify the data types, primary keys, foreign keys, and other 
 7. Import each CSV file into its corresponding SQL table.
 8. Verify that each table has the correct data by running a SELECT statement for each.
 
-Here is how the tables should be displayed:
-
-Table campaign:
-
-![Screenshot 2025-01-12 at 1 11 50 p m](https://github.com/user-attachments/assets/cc8fdca1-0faf-4c18-a5c7-ab4b90dbaf6f)
+Here is how the tables should be displayed (see that they match the Pandas Dataframes created before):
 
 Table category:
 
@@ -137,6 +133,10 @@ Table category:
 Table subcategory:
 
 ![Screenshot 2025-01-12 at 1 03 20 p m](https://github.com/user-attachments/assets/f8a8db3e-e212-4491-b47a-88d4feec50c9)
+
+Table campaign:
+
+![Screenshot 2025-01-12 at 1 11 50 p m](https://github.com/user-attachments/assets/cc8fdca1-0faf-4c18-a5c7-ab4b90dbaf6f)
 
 Table contacts:
 
