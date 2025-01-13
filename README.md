@@ -83,8 +83,8 @@ The instructions for this mini project are divided into the following subsection
 + Import the contacts.xlsx file into a DataFrame.
 + Iterate through the DataFrame, converting each row to a dictionary.
 + Iterate through each dictionary, doing the following:
-++ Extract the dictionary values from the keys by using a Python list comprehension.
-++ Add the values for each row to a new list.
+  -  Extract the dictionary values from the keys by using a Python list comprehension.
+  - Add the values for each row to a new list.
 + Create a new DataFrame that contains the extracted data.
 + Split each "name" column value into a first and last name, and place each in a new column.
 + Clean and export the DataFrame as contacts.csv and save it to your GitHub repository.
@@ -120,7 +120,7 @@ Note: Remember to specify the data types, primary keys, foreign keys, and other 
 6. Verify the table creation by running a SELECT statement for each table.
 7. Import each CSV file into its corresponding SQL table.
 
-When importing the CSV files make sure that you actiavte the headers tab (see the following image)
+When importing the CSV files make sure that you activate the headers tab (see the following image):
 
 ![Screenshot 2025-01-12 at 12 58 49 p m](https://github.com/user-attachments/assets/a12e0425-ad2a-4ba1-b86e-5b69a13ce82c)
 
