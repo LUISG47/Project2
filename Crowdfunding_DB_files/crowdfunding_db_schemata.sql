@@ -2,7 +2,9 @@
 -- Link to schema: https://app.quickdatabasediagrams.com/#/d/gRpdhD
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
-
+----------------------------------------
+--CREATION OF TABLE CAMPAIGN
+----------------------------------------
 CREATE TABLE "campaign" (
     "cf_id" INTEGER   NOT NULL,
     "contact_id" INTEGER   NOT NULL,
@@ -23,6 +25,9 @@ CREATE TABLE "campaign" (
      )
 );
 
+----------------------------------------
+--CREATION OF TABLE CONTACTS
+----------------------------------------
 CREATE TABLE "contacts" (
     "contact_id" INTEGER   NOT NULL,
     "first_name" VARCHAR   NOT NULL,
@@ -30,6 +35,9 @@ CREATE TABLE "contacts" (
     "email" VARCHAR   NOT NULL
 );
 
+----------------------------------------
+--CREATION OF TABLE SUBCATEGORY
+----------------------------------------
 CREATE TABLE "subcategory" (
     "subcategory_id" VARCHAR(10)   NOT NULL,
     "subcategory" VARCHAR   NOT NULL,
@@ -38,6 +46,9 @@ CREATE TABLE "subcategory" (
      )
 );
 
+----------------------------------------
+--CREATION OF TABLE CATEGORY
+----------------------------------------
 CREATE TABLE "category" (
     "category_id" VARCHAR(10)   NOT NULL,
     "category" VARCHAR   NOT NULL,
@@ -46,6 +57,9 @@ CREATE TABLE "category" (
      )
 );
 
+-------------------------------------------
+--CREATION OF RELATIONSHIPS BETWEEN TABLES
+-------------------------------------------
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_category_id" FOREIGN KEY("category_id")
 REFERENCES "category" ("category_id");
 
