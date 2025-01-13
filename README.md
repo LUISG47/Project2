@@ -186,7 +186,7 @@ The result should look as follows:
 
 TABLE 4:
 
-This tables now groups the campaigns by category and shows the top 10 failedcampaigns grouped by category
+This tables now groups the campaigns by category and shows the top 10 failed campaigns grouped by category
 (Please check file crowdfunding_db_analysis.sql for code of the table)
 
 The result should look as follows:
