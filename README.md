@@ -114,7 +114,7 @@ We used www.quickdatabasediagrams.com to make the Diagram based on the following
 
 2. Use the information from the ERD to create a table schema for each CSV file.
 Note: Remember to specify the data types, primary keys, foreign keys, and other constraints.
-3. Save the database schema as a Postgres file named crowdfunding_db_schema.sql, and save it to your GitHub repository.
+3. Save the database schema as a Postgres file named **crowdfunding_db_schemata.sql** and save it to your GitHub repository. You will locate this file in the folder named *Crowdfunding_DB_files*
 4. Create a new Postgres database, named crowdfunding_db
 5. Using the database schema, create the tables in the correct order to handle the foreign keys.
 6. Verify the table creation by running a SELECT statement for each table.
@@ -153,6 +153,7 @@ Table contacts:
 ## EXTRA
 
 Additionaly we created some tables to see that joining the tables to some purposes qould be effective to get important information.
+For this you will find a file named **crowdfunding_db_analysis** in the *Crowdfunding_DB_files folder*
 
 TABLE 1:
 
