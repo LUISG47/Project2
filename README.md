@@ -154,14 +154,12 @@ Table contacts:
 
 ## EXTRA
 
-
-Additionaly we created some tables to see that joining the tables to some purposes will be effective with this code :
-
-![Screenshot 2025-01-12 at 1 29 46 p m](https://github.com/user-attachments/assets/9632bfa7-7bdd-4ff4-8624-0510a866be2f)
+Additionaly we created some tables to see that joining the tables to some purposes qould be effective to get important information.
 
 TABLE 1:
 
 For example we joined all the tables putting the outcome of the campaign as successfull and ordering by the amount pledged from highest to lowest displaying only the first 10 results
+(Please check file crowdfunding_db_analysis.sql for code of the table)
 
 The result should look as follows:
 
