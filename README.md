@@ -11,7 +11,6 @@ For the ETL mini project, you will work with a partner to practice building an E
 
 ## Instructions
 
-Instructions
 The instructions for this mini project are divided into the following subsections:
 
 + Create the Category and Subcategory DataFrames
@@ -23,6 +22,7 @@ The instructions for this mini project are divided into the following subsection
 ## Create the Category and Subcategory DataFrames
 
 1. Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
+(The crowdfunding.xlsx is stored on the folder resources, please make sure to target the file in the proper route format)
 
 + A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
 + A "category" column that contains only the category titles
@@ -31,8 +31,7 @@ The instructions for this mini project are divided into the following subsection
 ![Screenshot 2025-01-12 at 3 21 00 p m](https://github.com/user-attachments/assets/733d3ff4-f191-4d9b-a485-1d7abea72971)
 
 
-
-2. Export the category DataFrame as category.csv and save it to your GitHub repository.
+2. Export the category DataFrame as category.csv and save it to your GitHub repository. 
 
 3. Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
 
@@ -44,8 +43,6 @@ The instructions for this mini project are divided into the following subsection
 
 
 4. Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
-
-
 
 
 ## Create the Campaign DataFrame
@@ -78,6 +75,7 @@ The instructions for this mini project are divided into the following subsection
 ## Create the Contacts DataFrame
 
 1. Choose one of the following two options for extracting and transforming the data from the contacts.xlsx Excel data:
+(The contacts.xlsx is stored on the folder resources, please make sure to target the file in the proper route format)
 + Option 1: Use Python dictionary methods.
 + Option 2: Use regular expressions.
 
