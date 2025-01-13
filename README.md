@@ -107,7 +107,7 @@ The instructions for this mini project are divided into the following subsection
 
 1. Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site.
 
-We used www.quickdatabasediagrams.com to make the Diagram based on the following Entity-relationship schema:
+We used www.quickdatabasediagrams.com to make the Diagram based on the following Entity-relationship Diagram:
 
 ![QuickDBD-Crowdfunding (4)](https://github.com/user-attachments/assets/a4d08158-7e86-4974-bcaf-f8fd11a3782b)
 
